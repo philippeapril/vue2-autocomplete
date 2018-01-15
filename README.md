@@ -157,10 +157,6 @@ When you're using options props, you can have autocomplete to filter your data. 
 #### encodeParams (Boolean: true)
 Autocomplete will ```encodeURIComponent``` all your params before ajax send, When this props sets to ```true```. Default is ```true``` [#35](https://github.com/BosNaufal/vue2-autocomplete/pull/35)
 
-#### debounce (Number)
-Delay time before do the ajax for the data
-
-
 #### required (Boolean)
 Required attribute for input
 
@@ -176,7 +172,7 @@ Spesific custom class for each part. available: wrapper, input, list, and item
 #### id (String)
 Custom id name for autocomplete component
 
-#### debounce (number)
+#### debounce (Number)
 Number of milliseconds the user should stop typing for before the request is sent. Default is 0, meaning all requests are sent immediately.
 
 #### process (Function)
