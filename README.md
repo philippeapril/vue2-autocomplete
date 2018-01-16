@@ -176,6 +176,9 @@ Spesific custom class for each part. available: wrapper, input, list, and item
 #### id (String)
 Custom id name for autocomplete component
 
+#### name (String)
+Custom name attribute for autocomplete component
+
 #### debounce (number)
 Number of milliseconds the user should stop typing for before the request is sent. Default is 0, meaning all requests are sent immediately.
 
